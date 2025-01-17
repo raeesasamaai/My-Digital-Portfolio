@@ -1342,6 +1342,18 @@ form btn2{
 	box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
+.card1{
+  background: rgba(27, 39, 53, 1); /* Use RGBA with the desired opacity */
+    color: #ffffff;
+	border-radius:8px;
+	overflow:hidden;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+	margin:20px;
+	box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  
+
+}
+
 
  
 .card img{
@@ -1473,3 +1485,15 @@ form btn2{
 	;
 	filter:blur(30px);
 }
+
+.skill-level{
+  margin-top:20px;
+  color:orange;
+  font-size: 1rem;
+}
+
+.beginner{
+  color:green;
+}
+
+
