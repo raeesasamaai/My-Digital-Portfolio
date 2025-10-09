@@ -154,6 +154,8 @@ section
 	justify-content: center;
 	align-items: center;
 	margin-top:100px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .home{
@@ -312,9 +314,9 @@ section
 
 .section-text {
       font-size: 60px;
-      //font-weight: bold;
-      //margin-top: 100px; /* Reduced margin */
-	  margin-bottom: 50px; /* Reduced margin */
+      /* //font-weight: bold;
+      //margin-top: 100px; Reduced margin */
+	  margin-bottom: 30px; /* Reduced margin */
     }
 	
 .skills-container {
@@ -1417,6 +1419,8 @@ form btn2{
 	 display:flex;
 	align-items:center;
 	margin-bottom:30px;
+  padding-left: 0%;
+  padding-right: 0%;
   }
   
   .social-icons{
