@@ -1684,4 +1684,25 @@ img.hover-shadow {
   display:inline-block;
 }
 
+.pill{
+  margin: auto;
+  margin-top: 22px;
+  width: 150px;
+  padding: 7px 10px;
+  border-radius: 20px; 
+  background-color: none; 
+  color: #E26A01; 
+  font-size: 15px; 
+  font-weight: bold;
+  border: 1.7px #E26A01 solid;
+}
 
+.pill.beginner{
+  color: #069222; 
+  border: 1.7px #069222 solid;
+}
+
+.pill.advanced{
+  color: #C20509; 
+  border: 1.7px #C20509 solid;
+}
