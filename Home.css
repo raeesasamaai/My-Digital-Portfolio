@@ -1368,6 +1368,40 @@ form btn2{
 	height:auto;
 }
 
+.mockup-carousel {
+  position: relative;
+  background: rgba(15, 20, 28, 0.55);
+}
+
+.mockup-carousel .carousel-item img {
+  height: 220px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.mockup-carousel .carousel-indicators {
+  margin-bottom: 0.6rem;
+}
+
+.mockup-carousel .carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.mockup-carousel .carousel-control-prev,
+.mockup-carousel .carousel-control-next {
+  width: 12%;
+}
+
+.mockup-carousel .carousel-control-prev-icon,
+.mockup-carousel .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 50%;
+  background-size: 60% 60%;
+  padding: 18px;
+}
+
 .card-content{
 	padding:16px;
 }
@@ -1542,6 +1576,64 @@ form btn2{
 }
 .modal-content.zoomed-in {
     cursor: zoom-out; /* Change cursor when zoomed in */
+}
+
+.modal-carousel-wrapper {
+  display: none;
+  width: 100%;
+}
+
+.modal-gallery-carousel {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.modal-gallery-image {
+  width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+  background-color: rgba(15, 20, 28, 0.8);
+}
+
+.modal-gallery-carousel .carousel-indicators {
+  position: absolute;
+  left: 50%;
+  bottom: 1rem;
+  z-index: 2;
+  margin: 0;
+  transform: translateX(-50%);
+}
+
+.modal-gallery-carousel .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 0.25rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  opacity: 0.75;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+.modal-gallery-carousel .carousel-indicators .active {
+  background-color: #ffffff;
+  opacity: 1;
+  border-color: rgba(0, 0, 0, 0.45);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
+}
+
+.modal-gallery-carousel .carousel-control-prev,
+.modal-gallery-carousel .carousel-control-next {
+  width: 10%;
+}
+
+.modal-gallery-carousel .carousel-control-prev-icon,
+.modal-gallery-carousel .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 50%;
+  background-size: 60% 60%;
+  padding: 20px;
 }
 
 #modalCaption {
